@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="s.css">
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover {
+          background-color: #111;
+        }
+        .active {
+  background-color: #04AA6D;
+}
+
+ </style>
+</head>
+<body>
+
+    
+
+    <header>
+        <nav>
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#news">SHOP SALE</a></li>
+                <li><a href="#contact">LATEST PRODUCT</a></li>
+                <li><a href="#about">READ THE BLOG</a></li>
+                
+               
+            </ul>
+          </nav> 
+    </header>
+   
+    
+    <div class="bg"> </div>
+    <div class="topnav">
+    <input type="text" placeholder="Search Book ...."></div>
+        <h1  style="color:black; width: 50px; text-align: center;">BOOKSTORE</h1>
+        <h2>WELCOME! </h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <p>Etiam semper diam at erat pulvinar, at pulvinar felis blandit.</p>
+             Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</h4>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <p>Etiam semper diam at erat pulvinar, at pulvinar felis blandit.</p>
+             <p>volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+    <div class="container">
+        
+        <h1>Login and Sign Up</h1>
+        <form id="login-form">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+            <button onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
+    
+    <!-- The Modal (contains the Sign Up form) -->
+    <div id="id01" class="modal">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">times;</span>
+      <form class="modal-content" action="/action_page.php">
+        <div class="container">
+          <h1>Sign Up</h1>
+          <p>Please fill in this form to create an account.</p>
+          <hr>
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+    
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+    
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+    
+          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+    
+          <div class="clearfix">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signup">Sign Up</button>
+          </div>
+        </div>
+      </form>
+    </div>
+        
+           
+        </form>
+    </div>
+
+    <h2>WELCOME</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    <p>Etiam semper diam at erat pulvinar, at pulvinar felis blandit.</p>
+     Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</h4>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    <p>Etiam semper diam at erat pulvinar, at pulvinar felis blandit.</p>
+     <p>volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+
+    <script src="d.js"></script>
+
+
+</body>
+</html>
